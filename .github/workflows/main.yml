@@ -1,10 +1,10 @@
 # File: .github/workflows/workflow.yml
-name: yvea-api
+name: yvea-app
 
 on: [push]
 
 env:
-  AZURE_WEBAPP_NAME: yvea-api   # set this to your application's name
+  AZURE_WEBAPP_NAME: yvea-app   # set this to your application's name
   NODE_VERSION: '18.x'                # set this to the node version to use
 
 jobs:
